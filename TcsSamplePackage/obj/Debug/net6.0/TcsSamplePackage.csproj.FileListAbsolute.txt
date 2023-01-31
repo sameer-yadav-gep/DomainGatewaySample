@@ -1,0 +1,12 @@
+C:\Users\Sameer.Yadav\GEP\POC\DomainGatewaySample\TcsSamplePackage\bin\Debug\net6.0\TcsSamplePackage.deps.json
+C:\Users\Sameer.Yadav\GEP\POC\DomainGatewaySample\TcsSamplePackage\bin\Debug\net6.0\TcsSamplePackage.dll
+C:\Users\Sameer.Yadav\GEP\POC\DomainGatewaySample\TcsSamplePackage\bin\Debug\net6.0\TcsSamplePackage.pdb
+C:\Users\Sameer.Yadav\GEP\POC\DomainGatewaySample\TcsSamplePackage\obj\Debug\net6.0\TcsSamplePackage.csproj.AssemblyReference.cache
+C:\Users\Sameer.Yadav\GEP\POC\DomainGatewaySample\TcsSamplePackage\obj\Debug\net6.0\TcsSamplePackage.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Sameer.Yadav\GEP\POC\DomainGatewaySample\TcsSamplePackage\obj\Debug\net6.0\TcsSamplePackage.AssemblyInfoInputs.cache
+C:\Users\Sameer.Yadav\GEP\POC\DomainGatewaySample\TcsSamplePackage\obj\Debug\net6.0\TcsSamplePackage.AssemblyInfo.cs
+C:\Users\Sameer.Yadav\GEP\POC\DomainGatewaySample\TcsSamplePackage\obj\Debug\net6.0\TcsSamplePackage.csproj.CoreCompileInputs.cache
+C:\Users\Sameer.Yadav\GEP\POC\DomainGatewaySample\TcsSamplePackage\obj\Debug\net6.0\TcsSamplePackage.dll
+C:\Users\Sameer.Yadav\GEP\POC\DomainGatewaySample\TcsSamplePackage\obj\Debug\net6.0\refint\TcsSamplePackage.dll
+C:\Users\Sameer.Yadav\GEP\POC\DomainGatewaySample\TcsSamplePackage\obj\Debug\net6.0\TcsSamplePackage.pdb
+C:\Users\Sameer.Yadav\GEP\POC\DomainGatewaySample\TcsSamplePackage\obj\Debug\net6.0\ref\TcsSamplePackage.dll

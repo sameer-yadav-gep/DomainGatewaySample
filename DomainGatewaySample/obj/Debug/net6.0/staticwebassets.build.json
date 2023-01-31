@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "bHqab+zVnXWnBlsvxnNMid69341/1ex3JIicqGtTSHA=",
+  "Source": "DomainGatewaySample",
+  "BasePath": "_content/DomainGatewaySample",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

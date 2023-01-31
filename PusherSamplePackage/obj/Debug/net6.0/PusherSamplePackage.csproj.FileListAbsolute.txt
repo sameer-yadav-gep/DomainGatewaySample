@@ -1,0 +1,12 @@
+C:\Users\Sameer.Yadav\GEP\POC\DomainGatewaySample\PusherSamplePackage\bin\Debug\net6.0\PusherSamplePackage.deps.json
+C:\Users\Sameer.Yadav\GEP\POC\DomainGatewaySample\PusherSamplePackage\bin\Debug\net6.0\PusherSamplePackage.dll
+C:\Users\Sameer.Yadav\GEP\POC\DomainGatewaySample\PusherSamplePackage\bin\Debug\net6.0\PusherSamplePackage.pdb
+C:\Users\Sameer.Yadav\GEP\POC\DomainGatewaySample\PusherSamplePackage\obj\Debug\net6.0\PusherSamplePackage.csproj.AssemblyReference.cache
+C:\Users\Sameer.Yadav\GEP\POC\DomainGatewaySample\PusherSamplePackage\obj\Debug\net6.0\PusherSamplePackage.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Sameer.Yadav\GEP\POC\DomainGatewaySample\PusherSamplePackage\obj\Debug\net6.0\PusherSamplePackage.AssemblyInfoInputs.cache
+C:\Users\Sameer.Yadav\GEP\POC\DomainGatewaySample\PusherSamplePackage\obj\Debug\net6.0\PusherSamplePackage.AssemblyInfo.cs
+C:\Users\Sameer.Yadav\GEP\POC\DomainGatewaySample\PusherSamplePackage\obj\Debug\net6.0\PusherSamplePackage.csproj.CoreCompileInputs.cache
+C:\Users\Sameer.Yadav\GEP\POC\DomainGatewaySample\PusherSamplePackage\obj\Debug\net6.0\PusherSamplePackage.dll
+C:\Users\Sameer.Yadav\GEP\POC\DomainGatewaySample\PusherSamplePackage\obj\Debug\net6.0\refint\PusherSamplePackage.dll
+C:\Users\Sameer.Yadav\GEP\POC\DomainGatewaySample\PusherSamplePackage\obj\Debug\net6.0\PusherSamplePackage.pdb
+C:\Users\Sameer.Yadav\GEP\POC\DomainGatewaySample\PusherSamplePackage\obj\Debug\net6.0\ref\PusherSamplePackage.dll
