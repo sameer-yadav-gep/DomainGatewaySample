@@ -32,7 +32,7 @@
             //Register Subtype Dependencies
             serviceCollection.AddSingleton<ISubTypeSettings>(subtypesSettings);
 
-            serviceCollection.AddSingleton<IFlowRegistry, FlowRegistry>();
+            serviceCollection.AddScoped<IFlowRegistry, FlowRegistry>();
         }
 
 

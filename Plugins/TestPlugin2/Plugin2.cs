@@ -1,4 +1,5 @@
-﻿using Leo.Subtypes.Flows;
+﻿using Leo.Subtypes.Extensions;
+using Leo.Subtypes.Flows;
 using Microsoft.Extensions.DependencyInjection;
 using PusherSamplePackage;
 
@@ -10,7 +11,8 @@ namespace TestPlugin2
         private readonly IPusherSample _pusher;
         public Plugin2(object[] args) : base(args)
         {
-            _pusher = this.GetArgument<IPusherSample>(args);
+            var scope = base.HostServiceProvider.CreateScope();
+            _pusher = base.HostServiceProvider.GetHostService<IPusherSample>(scope);
             this.OnError += Plugin2_OnError;
             this.BeforeTrigger += Plugin2_BeforeTrigger;
             this.AfterTrigger += Plugin1_AfterTrigger;
