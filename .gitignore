@@ -363,3 +363,5 @@ FodyWeavers.xsd
 
 # Plugin Binaries
 dist/
+.vs/
+**/*.suo
