@@ -362,4 +362,5 @@ MigrationBackup/
 FodyWeavers.xsd
 
 # Plugin Binaries
-dist/
+dist/*
+.vs/*
