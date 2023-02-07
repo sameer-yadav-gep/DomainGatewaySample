@@ -39,7 +39,7 @@ namespace TestPlugin1
 
         public override FlowResult Trigger(TriggerParameter arg)
         {
-            var result = _tcsConfig.ExecuteTcs("Plugin#1");
+            var result = _tcsConfig.ExecuteTcs("Plugin#123");
             return new FlowResult(this)
             {
                 Status = true,
