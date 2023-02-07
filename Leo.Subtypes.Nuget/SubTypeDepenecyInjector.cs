@@ -21,7 +21,7 @@
         public static void RegisterSubTypeFlows(this IServiceCollection serviceCollection,
                 IConfiguration config, string configKey = "SubTypeSettings")
         {
-            EnvironmentExtensions.ClearBinarayDownloadDirectory();
+            EnvironmentExtensions.ClearBinaryDownloadDirectory();
             var configSection = config.GetSection(configKey);
             if (configSection == null)
                 throw new Exception("Unable to load subtype dependencies. Missing setting elemenet in appsettings.json");
@@ -32,7 +32,7 @@
             //Register Subtype Dependencies
             serviceCollection.AddSingleton<ISubTypeSettings>(subtypesSettings);
 
-            serviceCollection.AddScoped<IFlowRegistry, FlowRegistry>();
+            serviceCollection.AddSingleton<IFlowRegistry, FlowRegistry>();
         }
 
 

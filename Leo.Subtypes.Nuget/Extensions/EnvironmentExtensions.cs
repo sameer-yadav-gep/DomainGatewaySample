@@ -6,20 +6,23 @@
     // Used by core | Before executing a flow this uttility helps to download binaries from blob into the consumer
     public static class EnvironmentExtensions
     {
-        public static string BinarayDownloadPath()
+        public static string BinaryDownloadPath()
         {
-            return System.IO.Path.Combine(System.AppDomain.CurrentDomain.BaseDirectory,
-                System.AppDomain.CurrentDomain.RelativeSearchPath ?? "");
+            Console.WriteLine(AppDomain.CurrentDomain.BaseDirectory);
+            Console.WriteLine(AppDomain.CurrentDomain.RelativeSearchPath);
+            return System.IO.Path.Combine(AppDomain.CurrentDomain.BaseDirectory,
+                AppDomain.CurrentDomain.RelativeSearchPath ?? "");
         }
 
-        internal static void ClearBinarayDownloadDirectory()
+        internal static void ClearBinaryDownloadDirectory()
         {
             try
             {
-                if (Directory.Exists(Path.Combine(EnvironmentExtensions.BinarayDownloadPath(), "subTypes")))
-                    Directory.Delete(Path.Combine(EnvironmentExtensions.BinarayDownloadPath(), "subTypes"), true);
+                // Do not clear the directory.... for now
+                //if (Directory.Exists(Path.Combine(EnvironmentExtensions.BinaryDownloadPath(), "subTypes")))
+                //    Directory.Delete(Path.Combine(EnvironmentExtensions.BinaryDownloadPath(), "subTypes"), true);
 
-                Directory.CreateDirectory(Path.Combine(EnvironmentExtensions.BinarayDownloadPath(), "subTypes"));
+                Directory.CreateDirectory(Path.Combine(EnvironmentExtensions.BinaryDownloadPath(), "subTypes"));
             }
             catch (Exception ex)
             {

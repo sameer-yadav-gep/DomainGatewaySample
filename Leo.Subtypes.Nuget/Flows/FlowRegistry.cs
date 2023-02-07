@@ -84,7 +84,7 @@
                                 LibraryName = blobNameSplitted[2]
                             };
 
-                            lib.DownloadDirectoryFullName = Path.Combine(EnvironmentExtensions.BinarayDownloadPath(), "subTypes",
+                            lib.DownloadDirectoryFullName = Path.Combine(EnvironmentExtensions.BinaryDownloadPath(), "subTypes",
                                 lib.PluginName, lib.Version);
                             lib.DownloadFullName = Path.Combine(lib.DownloadDirectoryFullName, lib.LibraryName);
 
@@ -111,11 +111,12 @@
 
             if (_setting.IO != null)
             {
+                _setting.IO.RootPath = EnvironmentExtensions.BinaryDownloadPath();
                 foreach (var library in _setting.IO.Libraries)
                 {
                     library.AssemblyUniqueName = Guid.NewGuid().ToString();
-                    library.DownloadFullName = Path.Combine(library.DownloadDirectoryFullName ?? _setting.IO.RootPath, library.LibraryName);
-                    library.DownloadDirectoryFullName = library.DownloadDirectoryFullName ?? _setting.IO.RootPath;
+                    library.DownloadDirectoryFullName = Path.Combine(_setting.IO.RootPath, "subTypes", library.PluginName, library.Version);
+                    library.DownloadFullName = Path.Combine(library.DownloadDirectoryFullName, library.LibraryName);
                     discoverableLibraries.Add(library);
                     LoadAssembly(library);
                 }
@@ -125,7 +126,7 @@
             {
                 foreach (var library in _setting.Blob.Libraries)
                 {
-                    library.DownloadDirectoryFullName = Path.Combine(EnvironmentExtensions.BinarayDownloadPath(), "subTypes",
+                    library.DownloadDirectoryFullName = Path.Combine(EnvironmentExtensions.BinaryDownloadPath(), "subTypes",
                         library.PluginName, library.Version);
                     library.DownloadFullName = Path.Combine(library.DownloadDirectoryFullName, library.LibraryName);
 
@@ -344,7 +345,7 @@
                         .OrderByDescending(l => l.Version.ConvertVersionToNumber())
                         .FirstOrDefault();
                 }
-
+                
                 if (library == null)
                 {
                     throw new FlowNotFoundException(criteria);
